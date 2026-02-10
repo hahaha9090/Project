@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{35cdb7eb-5b56-439d-8172-7d220a481c56}</ProjectGuid>
+    <ProjectGuid>{cad749a8-6631-4799-9bf8-473e99196b5e}</ProjectGuid>
     <RootNamespace>RemoteCtrl</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
