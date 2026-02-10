@@ -1,0 +1,5 @@
+.vs/
+*.ipch
+*.pch
+x64/
+*.zip

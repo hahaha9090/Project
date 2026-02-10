@@ -1,0 +1,73 @@
+
+{% extends "booking/base.html" %}
+
+{% block title %}学习统计 - 图书馆自习室预约系统{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <h2 class="mb-4">我的学习数据统计</h2>
+    
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <div class="card text-white bg-info mb-3 h-100">
+                <div class="card-header">累计预约次数</div>
+                <div class="card-body">
+                    <h1 class="card-title display-4">{{ total_count }} <small class="fs-6">次</small></h1>
+                    <p class="card-text">您在自习室坚持学习的见证。</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-white bg-success mb-3 h-100">
+                <div class="card-header">累计学习时长</div>
+                <div class="card-body">
+                    <h1 class="card-title display-4">{{ total_hours }} <small class="fs-6">小时</small></h1>
+                    <p class="card-text">每一分钟的努力都值得被铭记。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <i class="fas fa-history"></i> 近期有效学习记录
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>自习室</th>
+                            <th>位置/设备</th>
+                            <th>时段</th>
+                            <th>时长</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for res in reservations %}
+                        <tr>
+                            <td>{{ res.date }}</td>
+                            <td>{{ res.room.name }}</td>
+                            <td>
+                                {% if res.seat %}座位 {{ res.seat.number }}{% endif %}
+                                {% if res.equipment %}设备 {{ res.equipment.name }}{% endif %}
+                            </td>
+                            <td>{{ res.start_time }} - {{ res.end_time }}</td>
+                            <td>
+                                <!-- 简单计算时长显示 -->
+                                <span class="badge bg-secondary">完成</span>
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="5" class="text-center text-muted">暂无有效学习记录，快去预约吧！</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

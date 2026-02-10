@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="D:/Project/Microsoft VS/RemoteCtrl/RemoteCtrl/RemoteCtrl.vcxproj" Id="35cdb7eb-5b56-439d-8172-7d220a481c56" />
+  <Project Path="RemoteClient/RemoteClient.vcxproj" />
+</Solution>

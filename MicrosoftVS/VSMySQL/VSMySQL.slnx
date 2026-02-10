@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VSMySQL/VSMySQL.vcxproj" Id="108ae7e2-d64b-43ef-a1e2-ee090249edde" />
+</Solution>

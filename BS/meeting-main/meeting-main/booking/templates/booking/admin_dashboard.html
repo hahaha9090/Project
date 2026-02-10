@@ -1,0 +1,73 @@
+{% extends "booking/base.html" %}
+
+{% block title %}管理后台 - 图书馆自习室预约系统{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">用户总数</div>
+                <div class="card-body">
+                    <h2 class="card-title">{{ stats.user_count }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-header">自习室数量</div>
+                <div class="card-body">
+                    <h2 class="card-title">{{ stats.room_count }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-header">设备数量</div>
+                <div class="card-body">
+                    <h2 class="card-title text-dark">{{ stats.equipment_count }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-danger mb-3">
+                <div class="card-header">总预约数</div>
+                <div class="card-body">
+                    <h2 class="card-title">{{ stats.reservation_count }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header">快捷操作</div>
+                <div class="list-group list-group-flush">
+                    <a href="/admin/booking/room/" class="list-group-item list-group-item-action">
+                        <i class="fas fa-door-open"></i> 管理自习室
+                    </a>
+                    <a href="/admin/booking/seat/" class="list-group-item list-group-item-action">
+                        <i class="fas fa-chair"></i> 管理座位
+                    </a>
+                    <a href="/admin/booking/equipment/" class="list-group-item list-group-item-action">
+                        <i class="fas fa-laptop"></i> 管理设备
+                    </a>
+                    <a href="/admin/booking/announcement/" class="list-group-item list-group-item-action">
+                        <i class="fas fa-bullhorn"></i> 发布公告
+                    </a>
+                    <a href="/admin/auth/user/" class="list-group-item list-group-item-action">
+                        <i class="fas fa-users"></i> 用户管理
+                    </a>
+                    <a href="/admin/booking/studentinfo/" class="list-group-item list-group-item-action">
+                        <i class="fas fa-user-graduate"></i> 管理学生白名单
+                    </a>
+                    <a href="/admin/booking/teacherinfo/" class="list-group-item list-group-item-action">
+                        <i class="fas fa-chalkboard-teacher"></i> 管理教师白名单
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

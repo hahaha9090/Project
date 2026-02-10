@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widget {
+border-image: url(:/weaUI/weaUI.png);
+color: rgb(255, 255, 255); 
+}
+QLabel {
+font: 25 10pt &quot;Microsoft YaHei&quot;; 
+border-radius: 4px; 
+background-color: argb(60, 60, 60, 130); 
+color: rgb(255, 255, 255); 
+} 
+QLineEdit { 
+background-color: rgb(0, 85, 0); 
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>450</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

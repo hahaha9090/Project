@@ -1,0 +1,264 @@
+{% extends "booking/base.html" %}
+{% load booking_extras %}
+
+{% block title %}{{ room.name }} - 详情{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">自习室信息</h5>
+                </div>
+                <div class="card-body">
+                    <h4>{{ room.name }}</h4>
+                    <p class="text-muted">{{ room.get_category_display }}</p>
+                    <hr>
+                    <p>{{ room.description }}</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>容量:</strong> {{ room.capacity }}人</li>
+                        <li class="list-group-item"><strong>状态:</strong> {{ room.get_status_display }}</li>
+                        <li class="list-group-item"><strong>管理员:</strong> {{ room.manager.last_name }}{{ room.manager.first_name|default:"无" }}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 设备列表 -->
+            {% if equipments %}
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h6 class="mb-0">可用设备</h6>
+                </div>
+                <ul class="list-group list-group-flush">
+                    {% for eq in equipments %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ eq.name }}
+                        {% if eq.is_active %}
+                        <span class="badge bg-success">可用</span>
+                        {% else %}
+                        <span class="badge bg-secondary">维护中</span>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center flex-wrap">
+                    <h5 class="mb-0">座位预约</h5>
+                    <form class="d-flex align-items-center mt-2 mt-sm-0" method="get">
+                        <input type="date" name="date" class="form-control form-control-sm me-2" value="{{ selected_date|date:'Y-m-d' }}" style="width: auto;">
+                        <select name="start_time" class="form-select form-select-sm me-1" style="width: auto;">
+                            <option value="">开始</option>
+                            {% for h in "08 09 10 11 12 13 14 15 16 17 18 19 20 21"|split %}
+                            <option value="{{ h }}:00" {% if selected_start == h|add:":00" %}selected{% endif %}>{{ h }}:00</option>
+                            {% endfor %}
+                        </select>
+                        <span class="me-1">-</span>
+                        <select name="end_time" class="form-select form-select-sm me-2" style="width: auto;">
+                            <option value="">结束</option>
+                            {% for h in "09 10 11 12 13 14 15 16 17 18 19 20 21 22"|split %}
+                            <option value="{{ h }}:00" {% if selected_end == h|add:":00" %}selected{% endif %}>{{ h }}:00</option>
+                            {% endfor %}
+                        </select>
+                        <button type="submit" class="btn btn-sm btn-primary">筛选</button>
+                        <a href="?" class="btn btn-sm btn-outline-secondary ms-1">重置</a>
+                    </form>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle"></i> 
+                        {% if selected_start and selected_end %}
+                            正在显示 <strong>{{ selected_date|date:'Y-m-d' }} {{ selected_start }}-{{ selected_end }}</strong> 的座位情况。红色代表该时段已被占用。
+                        {% else %}
+                            显示 <strong>{{ selected_date|date:'Y-m-d' }}</strong> 全天概况。红色代表当天有部分时段被占用，请使用上方筛选查看具体时段。
+                        {% endif %}
+                    </div>
+                    
+                    <h6 class="mb-3">座位分布图 ({{ selected_date }})</h6>
+                    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+                        {% for seat in seats %}
+                        <div class="col">
+                            {% with status=seat_status|get_item:seat.id %}
+                            <div class="card text-center h-100 seat-card {% if status %}border-danger bg-light{% else %}border-success{% endif %}" 
+                                 onclick="bookSeat('{{ seat.id }}', '{{ seat.number }}')">
+                                <div class="card-body p-2">
+                                    <i class="fas fa-chair fa-2x {% if status %}text-danger{% else %}text-success{% endif %} mb-2"></i>
+                                    <h6 class="card-title mb-0">{{ seat.number }}</h6>
+                                    {% if status %}
+                                        <small class="text-danger d-block" style="font-size: 0.7rem;">
+                                            {% if selected_start and selected_end %}
+                                                时段已占
+                                            {% else %}
+                                                部分占用
+                                            {% endif %}
+                                        </small>
+                                    {% else %}
+                                        <small class="text-muted d-block" style="font-size: 0.7rem;">可预约</small>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endwith %}
+                        </div>
+                        {% empty %}
+                        <div class="col-12">
+                            <div class="alert alert-warning">该自习室暂无固定座位信息。</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="mt-4">
+                        <h6>已预约时段：</h6>
+                        {% if reservations %}
+                        <ul class="list-group">
+                            {% for res in reservations %}
+                            {% if res.seat %}
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span><i class="fas fa-chair"></i> 座位 {{ res.seat.number }}</span>
+                                <span class="badge bg-danger">{{ res.start_time }} - {{ res.end_time }} ({{ res.booker }})</span>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <p class="text-muted">当前日期暂无预约记录。</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 预约模态框 -->
+<div class="modal fade" id="bookingModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">预约座位</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="seatBookingForm">
+                    <input type="hidden" name="seat_id" id="modalSeatId">
+                    <input type="hidden" name="room_id" value="{{ room.id }}">
+                    <div class="mb-3">
+                        <label class="form-label">座位号</label>
+                        <input type="text" class="form-control" id="modalSeatNumber" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">日期</label>
+                        <input type="date" class="form-control" name="date" id="modalDate" value="{{ selected_date|date:'Y-m-d' }}" readonly>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label class="form-label">开始时间</label>
+                            <select class="form-select" name="start_time" required>
+                                <option value="08:00">08:00</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                                <option value="19:00">19:00</option>
+                                <option value="20:00">20:00</option>
+                                <option value="21:00">21:00</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">结束时间</label>
+                             <select class="form-select" name="end_time" required>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                                <option value="19:00">19:00</option>
+                                <option value="20:00">20:00</option>
+                                <option value="21:00">21:00</option>
+                                <option value="22:00">22:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">用途</label>
+                        <input type="text" class="form-control" name="title" value="自习" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" onclick="submitSeatBooking()">确认预约</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function bookSeat(id, number) {
+    document.getElementById('modalSeatId').value = id;
+    document.getElementById('modalSeatNumber').value = number;
+    new bootstrap.Modal(document.getElementById('bookingModal')).show();
+}
+
+function submitSeatBooking() {
+    const form = document.getElementById('seatBookingForm');
+    const formData = new FormData(form);
+    
+    // Convert to simple object
+    const data = {};
+    formData.forEach((value, key) => data[key] = value);
+    
+    // Add additional fields expected by API
+    data['room_id'] = '{{ room.id }}';
+
+    fetch('/api/save_reservations/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(result => {
+        if (result.status === 'success') {
+            alert('预约成功！');
+            location.reload();
+        } else {
+            alert('预约失败：' + result.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('预约提交出错');
+    });
+}
+</script>
+
+<style>
+.seat-card {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.seat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background-color: #f0fff4;
+}
+</style>
+{% endblock %}

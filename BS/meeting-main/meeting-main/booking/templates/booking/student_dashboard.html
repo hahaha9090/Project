@@ -1,0 +1,74 @@
+{% extends "booking/base.html" %}
+
+{% block title %}学生中心 - 图书馆自习室预约系统{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h4>欢迎回来，{{ user.last_name }}{{ user.first_name }}同学</h4>
+                    <p class="mb-0">今天也要努力学习哦！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 公告栏 -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-warning text-dark">
+                    <i class="fas fa-bullhorn"></i> 最新公告
+                </div>
+                <div class="card-body">
+                    {% if announcements %}
+                        <ul class="list-group list-group-flush">
+                            {% for notice in announcements %}
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span>{{ notice.title }}</span>
+                                <small class="text-muted">{{ notice.created_at|date:"Y-m-d" }}</small>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        <p class="text-muted">暂无公告</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 快速预约 -->
+    <h5 class="mb-3">自习室列表</h5>
+    <div class="row">
+        {% for room in rooms %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">{{ room.name }}</h5>
+                    <span class="badge bg-info text-dark">{{ room.get_category_display }}</span>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">{{ room.description|default:"暂无描述" }}</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-chair"></i> 容量: {{ room.capacity }}人</li>
+                        <li><i class="fas fa-check-circle"></i> 状态: {{ room.get_status_display }}</li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-white border-top-0">
+                    <a href="{% url 'room_detail' room.id %}" class="btn btn-primary w-100">
+                        查看详情与预约
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="col-12">
+            <div class="alert alert-info">暂无开放的自习室</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

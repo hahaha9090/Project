@@ -1,0 +1,1072 @@
+[2026-02-06 19:02:21,679] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:02:46,662] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770375766439 HTTP/1.1" 200 151399
+[2026-02-06 19:02:47,262] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:02:47,308] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 774
+[2026-02-06 19:02:48,684] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:02:48,685] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 3998
+[2026-02-06 19:02:51,617] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770375771611 HTTP/1.1" 200 151399
+[2026-02-06 19:02:51,676] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:02:51,690] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 774
+[2026-02-06 19:02:51,700] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:02:51,700] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 3998
+[2026-02-06 19:06:48,247] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 19:06:49,064] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:07:01,718] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\settings.py changed, reloading.
+[2026-02-06 19:07:02,546] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:08:15,814] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:19:39,025] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770376778988 HTTP/1.1" 200 151975
+[2026-02-06 19:19:39,215] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:19:39,255] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:19:39,256] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4150
+[2026-02-06 19:19:39,263] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 774
+[2026-02-06 19:20:02,563] INFO django.server log_message:249 - "GET /room_status/ HTTP/1.1" 200 17586
+[2026-02-06 19:20:03,556] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:20:03,567] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 774
+[2026-02-06 19:20:05,523] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:20:05,523] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4150
+[2026-02-06 19:20:06,839] INFO django.server log_message:249 - "GET / HTTP/1.1" 200 151975
+[2026-02-06 19:20:06,869] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:20:06,885] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 774
+[2026-02-06 19:20:06,908] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:20:06,909] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4150
+[2026-02-06 19:22:22,366] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\models.py changed, reloading.
+[2026-02-06 19:22:23,257] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:23:28,585] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 19:23:29,403] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:24:44,053] INFO django.server log_message:249 - "GET / HTTP/1.1" 200 151975
+[2026-02-06 19:24:47,378] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:24:47,405] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 774
+[2026-02-06 19:24:49,120] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\api.py changed, reloading.
+[2026-02-06 19:24:50,125] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:24:50,825] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:24:50,829] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4502
+[2026-02-06 19:24:51,869] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 19:24:52,736] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:25:11,467] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\api.py changed, reloading.
+[2026-02-06 19:25:12,240] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:26:15,051] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770377175011 HTTP/1.1" 200 153388
+[2026-02-06 19:26:15,114] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 200 3075
+[2026-02-06 19:26:16,919] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:26:16,941] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:16,942] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 19:26:16,943] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:26:36,985] INFO django.server log_message:249 - "GET /room_status/ HTTP/1.1" 200 17586
+[2026-02-06 19:26:37,131] INFO django.server log_message:249 - "GET /room_status/?ide_webview_request_time=1770377197118 HTTP/1.1" 200 17586
+[2026-02-06 19:26:37,243] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:26:37,312] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 19:26:37,384] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:37,406] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:26:42,064] INFO django.server log_message:249 - "GET / HTTP/1.1" 200 153388
+[2026-02-06 19:26:42,080] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 304 0
+[2026-02-06 19:26:42,163] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:26:42,237] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:42,238] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 19:26:42,238] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:26:46,367] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 4358
+[2026-02-06 19:26:46,421] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:46,422] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:26:49,339] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:49,339] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 19:26:49,340] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:26:54,263] INFO django.server log_message:249 - "GET /register/ HTTP/1.1" 200 6148
+[2026-02-06 19:26:54,310] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:54,311] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:26:57,572] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:57,573] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 19:26:57,574] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:26:58,425] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770377175011 HTTP/1.1" 200 153388
+[2026-02-06 19:26:58,656] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:26:58,685] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 19:26:58,694] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:26:58,695] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:27:01,342] INFO django.server log_message:249 - "GET / HTTP/1.1" 200 153388
+[2026-02-06 19:27:01,599] INFO django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 200 862
+[2026-02-06 19:27:01,650] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 19:27:01,661] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:27:01,662] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 4695
+[2026-02-06 19:42:12,335] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\models.py changed, reloading.
+[2026-02-06 19:42:13,528] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:42:41,073] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\models.py changed, reloading.
+[2026-02-06 19:42:41,988] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:42:46,635] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\admin.py changed, reloading.
+[2026-02-06 19:42:47,906] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:43:16,897] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 19:43:17,808] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:43:29,541] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 19:43:30,525] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:44:36,665] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:44:54,576] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770378294553 HTTP/1.1" 302 0
+[2026-02-06 19:44:54,593] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 4358
+[2026-02-06 19:44:54,752] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:44:54,753] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5621
+[2026-02-06 19:45:42,534] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 4512
+[2026-02-06 19:45:42,570] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:45:42,571] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5621
+[2026-02-06 19:46:47,198] WARNING django.request log_message:249 - Not Found: /accounts/
+[2026-02-06 19:46:47,199] WARNING django.server log_message:249 - "GET /accounts/?ide_webview_request_time=1770378406871 HTTP/1.1" 404 7762
+[2026-02-06 19:46:47,259] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:46:47,259] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5621
+[2026-02-06 19:46:51,531] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770378411526 HTTP/1.1" 302 0
+[2026-02-06 19:46:51,535] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 4358
+[2026-02-06 19:46:51,620] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:46:51,621] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5621
+[2026-02-06 19:47:53,240] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 19:47:54,059] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:49:50,471] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 19:50:24,458] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 4649
+[2026-02-06 19:50:26,406] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:50:26,407] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5621
+[2026-02-06 19:51:12,574] INFO django.server log_message:249 - "GET /register/ HTTP/1.1" 200 8206
+[2026-02-06 19:51:12,623] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:51:12,623] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5621
+[2026-02-06 19:51:41,757] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 4649
+[2026-02-06 19:51:41,802] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 19:51:41,803] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5621
+[2026-02-06 20:01:57,151] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\models.py changed, reloading.
+[2026-02-06 20:01:57,164] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\models.py changed, reloading.
+[2026-02-06 20:01:58,015] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:01:58,015] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:02:29,935] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\forms.py changed, reloading.
+[2026-02-06 20:02:29,942] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\forms.py changed, reloading.
+[2026-02-06 20:02:30,809] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:02:30,809] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:02:59,720] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:02:59,727] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:03:00,555] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:03:00,555] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:03:17,863] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:03:17,870] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:03:18,645] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:03:18,646] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:03:29,383] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\admin.py changed, reloading.
+[2026-02-06 20:03:29,383] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\admin.py changed, reloading.
+[2026-02-06 20:03:30,279] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:03:30,285] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:04:02,202] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:04:35,220] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5107
+[2026-02-06 20:04:36,625] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:04:36,626] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:04:56,104] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5261
+[2026-02-06 20:05:01,330] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5261
+[2026-02-06 20:05:22,753] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5261
+[2026-02-06 20:05:29,838] INFO django.server handle_error:82 - - Broken pipe from ('127.0.0.1', 58195)
+[2026-02-06 20:05:30,254] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5261
+[2026-02-06 20:05:42,760] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:05:42,761] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:05:46,009] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:05:46,013] ERROR django.server log_message:249 - "GET /register/ HTTP/1.1" 500 84574
+[2026-02-06 20:05:46,090] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:05:46,091] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:05:50,785] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:05:50,829] ERROR django.server log_message:249 - "GET /register/ HTTP/1.1" 500 84839
+[2026-02-06 20:05:50,933] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:05:50,934] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:06:59,121] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:08:20,087] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:08:20,089] ERROR django.server log_message:249 - "GET /register/ HTTP/1.1" 500 84839
+[2026-02-06 20:08:20,162] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:20,163] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:08:20,757] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:08:20,759] ERROR django.server log_message:249 - "GET /register/ HTTP/1.1" 500 84839
+[2026-02-06 20:08:20,825] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:20,826] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:08:21,426] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:08:21,428] ERROR django.server log_message:249 - "GET /register/ HTTP/1.1" 500 84839
+[2026-02-06 20:08:21,495] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:21,496] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:08:26,519] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:08:26,521] ERROR django.server log_message:249 - "GET /register/?ide_webview_request_time=1770379706476 HTTP/1.1" 500 85061
+[2026-02-06 20:08:26,681] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:26,682] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:08:29,751] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:08:29,757] ERROR django.server log_message:249 - "GET /register/ HTTP/1.1" 500 84408
+[2026-02-06 20:08:29,928] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:29,928] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:08:34,621] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:08:34,623] ERROR django.server log_message:249 - "GET /register/?ide_webview_request_time=1770379714578 HTTP/1.1" 500 85061
+[2026-02-06 20:08:34,787] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:34,788] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:08:43,909] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770379723904 HTTP/1.1" 302 0
+[2026-02-06 20:08:43,919] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5107
+[2026-02-06 20:08:44,020] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:44,021] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:08:46,590] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:08:46,592] ERROR django.server log_message:249 - "GET /register/ HTTP/1.1" 500 84574
+[2026-02-06 20:08:46,659] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:08:46,662] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:10:34,329] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:11:07,148] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:11:07,151] ERROR django.server log_message:249 - "GET /register/?ide_webview_request_time=1770379867110 HTTP/1.1" 500 85061
+[2026-02-06 20:11:07,221] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:11:07,222] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:13:00,867] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:13:00,870] ERROR django.server log_message:249 - "GET /register/?ide_webview_request_time=1770379867110 HTTP/1.1" 500 85326
+[2026-02-06 20:13:00,941] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:13:00,942] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:13:05,177] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:13:05,180] ERROR django.server log_message:249 - "GET /register/?ide_webview_request_time=1770379985153 HTTP/1.1" 500 85061
+[2026-02-06 20:13:05,250] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:13:05,251] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:13:06,311] ERROR django.request log_message:249 - Internal Server Error: /register/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 58, in register
+    form = RegisterForm()
+           ^^^^^^^^^^^^
+NameError: name 'RegisterForm' is not defined
+[2026-02-06 20:13:06,314] ERROR django.server log_message:249 - "GET /register/?ide_webview_request_time=1770379986282 HTTP/1.1" 500 85061
+[2026-02-06 20:13:06,395] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:13:06,396] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:13:30,594] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:13:30,704] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:13:30,742] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:13:31,326] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:13:31,510] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:13:31,610] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:13:31,660] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:13:32,248] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:13:47,923] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:14:00,517] WARNING django.request log_message:249 - Not Found: /register/\uff0c\u5e94\u8be5\u53ef\u4ee5\u6b63\u5e38\u8bbf\u95ee\u6ce8\u518c\u754c\u9762\u4e86\u3002
+[2026-02-06 20:14:00,518] WARNING django.server log_message:249 - "GET /register/%EF%BC%8C%E5%BA%94%E8%AF%A5%E5%8F%AF%E4%BB%A5%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE%E6%B3%A8%E5%86%8C%E7%95%8C%E9%9D%A2%E4%BA%86%E3%80%82?ide_webview_request_time=1770380040495 HTTP/1.1" 404 6039
+[2026-02-06 20:14:00,557] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:14:00,558] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:14:16,309] INFO django.server log_message:249 - "GET /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11006
+[2026-02-06 20:14:16,448] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:14:16,449] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:15:17,656] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11228
+[2026-02-06 20:15:17,702] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:15:17,703] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:15:39,995] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11228
+[2026-02-06 20:15:40,038] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:15:40,040] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:15:53,694] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11241
+[2026-02-06 20:15:53,736] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:15:53,737] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:16:05,880] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11220
+[2026-02-06 20:16:05,932] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:16:05,933] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:16:28,494] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11226
+[2026-02-06 20:16:28,537] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:16:28,538] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:16:41,534] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11220
+[2026-02-06 20:16:41,573] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:16:41,575] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:16:59,588] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 200 11220
+[2026-02-06 20:16:59,633] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:16:59,634] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:17:21,558] INFO django.server log_message:249 - "POST /register/?ide_webview_request_time=1770380055953 HTTP/1.1" 302 0
+[2026-02-06 20:17:21,568] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:17:21,585] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 9725
+[2026-02-06 20:17:21,649] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 200 3075
+[2026-02-06 20:17:21,700] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:17:21,701] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:17:35,720] INFO django.server log_message:249 - "GET /my-reservations/ HTTP/1.1" 200 6966
+[2026-02-06 20:17:35,769] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:17:35,770] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:17:38,288] INFO django.server log_message:249 - "GET /room_status/ HTTP/1.1" 200 17586
+[2026-02-06 20:17:38,410] INFO django.server log_message:249 - "GET /room_status/?ide_webview_request_time=1770380258398 HTTP/1.1" 200 17586
+[2026-02-06 20:17:38,613] ERROR django.request log_message:249 - Internal Server Error: /api/load_rooms/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\api.py", line 101, in load_rooms
+    'equipment': room.equipment or '',
+                 ^^^^^^^^^^^^^^
+AttributeError: 'Room' object has no attribute 'equipment'. Did you mean: 'equipments'?
+[2026-02-06 20:17:38,618] ERROR django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 500 78639
+[2026-02-06 20:17:38,639] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 20:17:38,649] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:17:38,650] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:17:47,148] INFO django.server log_message:249 - "GET /my-reservations/ HTTP/1.1" 200 6966
+[2026-02-06 20:17:47,365] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:17:47,366] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:17:48,969] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:17:48,978] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 9725
+[2026-02-06 20:17:49,032] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:17:49,033] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:18:00,296] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 11558
+[2026-02-06 20:18:00,345] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:18:00,345] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:18:15,623] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:18:15,624] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:18:16,817] INFO django.server log_message:249 - "GET /rooms/2/ HTTP/1.1" 200 11559
+[2026-02-06 20:18:16,856] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:18:16,858] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:18:32,269] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:18:32,280] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 9725
+[2026-02-06 20:18:32,319] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:18:32,320] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:22:17,412] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 11558
+[2026-02-06 20:22:17,461] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:22:17,462] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:23:19,092] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:19,176] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:19,180] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:19,609] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:19,801] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:20,087] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:20,148] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:20,172] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:20,641] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:20,807] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:31,224] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:31,479] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:31,889] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:31,931] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:31,946] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:23:32,189] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:32,484] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:32,902] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:32,929] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:23:32,942] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:24:33,862] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:25:08,199] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 13009
+[2026-02-06 20:25:08,256] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 200 3075
+[2026-02-06 20:25:12,312] WARNING django.request log_message:249 - Not Found: /rooms
+[2026-02-06 20:25:12,313] WARNING django.server log_message:249 - "GET /rooms?ide_webview_request_time=1770380712303 HTTP/1.1" 404 5802
+[2026-02-06 20:25:12,358] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:25:12,359] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:25:15,287] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770380715277 HTTP/1.1" 302 0
+[2026-02-06 20:25:15,295] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:25:15,307] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 9725
+[2026-02-06 20:25:16,976] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:25:16,977] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:25:19,972] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 13009
+[2026-02-06 20:25:20,027] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:25:20,028] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:25:26,368] INFO django.server log_message:249 - "GET /rooms/1/?date=2026-02-06 HTTP/1.1" 200 13009
+[2026-02-06 20:25:26,411] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:25:26,412] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 5784
+[2026-02-06 20:27:44,937] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:27:45,058] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:27:45,227] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:27:45,236] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:27:45,241] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:27:45,928] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:46,060] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:46,263] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:46,273] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:46,316] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:56,721] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 20:27:56,832] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 20:27:57,032] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 20:27:57,041] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 20:27:57,043] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\urls.py changed, reloading.
+[2026-02-06 20:27:57,728] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:57,844] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:58,107] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:58,108] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:27:58,115] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:28:29,909] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:30:49,284] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770381049246 HTTP/1.1" 302 0
+[2026-02-06 20:30:49,298] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-06 20:30:49,452] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:30:49,453] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:31:02,966] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5309
+[2026-02-06 20:31:03,006] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:31:03,007] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:31:09,329] INFO django.server log_message:249 - "GET /register/ HTTP/1.1" 200 11006
+[2026-02-06 20:31:09,389] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:31:09,390] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:32:41,290] INFO django.server log_message:249 - "POST /register/ HTTP/1.1" 200 11535
+[2026-02-06 20:32:41,336] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:32:41,337] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:32:49,840] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-06 20:32:49,881] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:32:49,882] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:33:01,413] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5309
+[2026-02-06 20:33:01,453] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:33:01,454] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:33:11,423] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5309
+[2026-02-06 20:33:11,463] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:33:11,463] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:33:29,249] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 200 5309
+[2026-02-06 20:33:29,286] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:33:29,287] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:34:33,559] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:34:33,672] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:34:34,083] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:34:34,220] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:34:34,225] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-06 20:34:34,536] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:34:34,620] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:34:35,116] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:34:35,249] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:34:35,250] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:35:06,794] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-06 20:35:18,406] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770381318376 HTTP/1.1" 302 0
+[2026-02-06 20:35:18,421] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-06 20:35:18,473] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:18,475] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:20,098] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770381320089 HTTP/1.1" 302 0
+[2026-02-06 20:35:20,104] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-06 20:35:20,160] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:20,161] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:20,818] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770381320810 HTTP/1.1" 302 0
+[2026-02-06 20:35:20,825] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-06 20:35:20,875] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:20,876] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:36,160] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770381336152 HTTP/1.1" 302 0
+[2026-02-06 20:35:36,168] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-06 20:35:36,228] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:36,230] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:36,835] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770381336829 HTTP/1.1" 302 0
+[2026-02-06 20:35:36,841] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-06 20:35:36,883] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:36,885] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:41,668] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770381341351 HTTP/1.1" 302 0
+[2026-02-06 20:35:41,675] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:35:41,694] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-06 20:35:41,710] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 304 0
+[2026-02-06 20:35:41,842] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:41,844] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:45,329] INFO django.server log_message:249 - "GET /profile/ HTTP/1.1" 200 8150
+[2026-02-06 20:35:45,380] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:45,381] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:48,312] INFO django.server log_message:249 - "GET /my-reservations/ HTTP/1.1" 200 7660
+[2026-02-06 20:35:48,356] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:48,357] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:49,827] INFO django.server log_message:249 - "GET /statistics/ HTTP/1.1" 200 7588
+[2026-02-06 20:35:49,881] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:49,882] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:35:53,116] INFO django.server log_message:249 - "GET /room_status/ HTTP/1.1" 200 17586
+[2026-02-06 20:35:53,178] ERROR django.request log_message:249 - Internal Server Error: /api/load_rooms/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\api.py", line 101, in load_rooms
+    'equipment': room.equipment or '',
+                 ^^^^^^^^^^^^^^
+AttributeError: 'Room' object has no attribute 'equipment'. Did you mean: 'equipments'?
+[2026-02-06 20:35:53,184] INFO django.server handle_error:82 - - Broken pipe from ('127.0.0.1', 62233)
+[2026-02-06 20:35:53,241] INFO django.server log_message:249 - "GET /room_status/?ide_webview_request_time=1770381353228 HTTP/1.1" 200 17586
+[2026-02-06 20:35:53,380] ERROR django.request log_message:249 - Internal Server Error: /api/load_rooms/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\api.py", line 101, in load_rooms
+    'equipment': room.equipment or '',
+                 ^^^^^^^^^^^^^^
+AttributeError: 'Room' object has no attribute 'equipment'. Did you mean: 'equipments'?
+[2026-02-06 20:35:53,383] ERROR django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 500 78639
+[2026-02-06 20:35:53,406] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-06 20:35:53,415] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:35:53,416] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:00,381] INFO django.server log_message:249 - "GET / HTTP/1.1" 302 0
+[2026-02-06 20:36:00,389] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:36:00,402] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-06 20:36:00,499] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:00,500] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:02,570] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 13703
+[2026-02-06 20:36:02,626] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:02,627] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:07,064] INFO django.server log_message:249 - "GET /rooms/1/?date=2026-02-06 HTTP/1.1" 200 13703
+[2026-02-06 20:36:07,111] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:07,112] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:17,290] INFO django.server log_message:249 - "GET /profile/ HTTP/1.1" 200 8150
+[2026-02-06 20:36:17,362] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:17,427] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:18,014] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:36:18,028] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-06 20:36:18,078] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:18,080] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:19,396] INFO django.server log_message:249 - "GET /rooms/2/ HTTP/1.1" 200 13704
+[2026-02-06 20:36:19,438] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:19,439] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:20,932] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:36:20,942] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-06 20:36:20,988] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:20,989] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:22,130] INFO django.server log_message:249 - "GET /rooms/3/ HTTP/1.1" 200 13703
+[2026-02-06 20:36:22,176] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:22,177] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:23,504] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:36:23,517] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-06 20:36:23,563] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:23,564] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:25,112] INFO django.server log_message:249 - "GET /rooms/4/ HTTP/1.1" 200 13713
+[2026-02-06 20:36:25,156] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:25,157] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-06 20:36:28,244] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-06 20:36:28,257] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-06 20:36:28,307] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-06 20:36:28,308] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:39:41,487] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:39:48,379] INFO django.server log_message:249 - "GET / HTTP/1.1" 302 0
+[2026-02-08 10:39:48,405] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-08 10:39:53,969] WARNING django.request log_message:249 - Not Found: /favicon.ico
+[2026-02-08 10:39:53,970] WARNING django.server log_message:249 - "GET /favicon.ico HTTP/1.1" 404 6129
+[2026-02-08 10:41:08,011] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770518356162 HTTP/1.1" 302 0
+[2026-02-08 10:41:08,017] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-08 10:41:14,076] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:41:14,077] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:42:38,555] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-08 10:42:39,335] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:42:52,445] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:43:42,240] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 302 0
+[2026-02-08 10:43:42,256] INFO django.server log_message:249 - "GET / HTTP/1.1" 302 0
+[2026-02-08 10:43:42,266] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:43:42,277] WARNING django.request log_message:249 - Not Found: /admin/dashboard/
+[2026-02-08 10:43:42,278] WARNING django.server log_message:249 - "GET /admin/dashboard/ HTTP/1.1" 404 7488
+[2026-02-08 10:43:42,327] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:43:42,328] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:43:52,542] INFO django.server log_message:249 - "GET /accounts/login/ HTTP/1.1" 200 5155
+[2026-02-08 10:43:52,587] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:43:52,587] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:43:56,931] INFO django.server log_message:249 - "POST /accounts/login/ HTTP/1.1" 302 0
+[2026-02-08 10:43:56,940] INFO django.server log_message:249 - "GET / HTTP/1.1" 302 0
+[2026-02-08 10:43:56,949] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:43:56,969] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-08 10:43:57,042] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 200 3075
+[2026-02-08 10:43:57,092] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:43:57,093] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:44:03,797] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 13703
+[2026-02-08 10:44:03,849] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:44:03,850] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:01,470] INFO django.server log_message:249 - "GET /room_status/ HTTP/1.1" 200 17586
+[2026-02-08 10:45:01,549] INFO django.server log_message:249 - "GET /room_status/?ide_webview_request_time=1770518701539 HTTP/1.1" 200 17586
+[2026-02-08 10:45:01,714] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:01,715] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:01,775] ERROR django.request log_message:249 - Internal Server Error: /api/load_rooms/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\api.py", line 101, in load_rooms
+    'equipment': room.equipment or '',
+                 ^^^^^^^^^^^^^^
+AttributeError: 'Room' object has no attribute 'equipment'. Did you mean: 'equipments'?
+[2026-02-08 10:45:01,779] ERROR django.server log_message:249 - "GET /api/load_rooms/ HTTP/1.1" 500 74884
+[2026-02-08 10:45:01,788] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-08 10:45:04,203] INFO django.server log_message:249 - "GET / HTTP/1.1" 302 0
+[2026-02-08 10:45:04,212] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:45:04,223] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-08 10:45:04,235] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 304 0
+[2026-02-08 10:45:04,400] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:04,401] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:07,352] INFO django.server log_message:249 - "GET /statistics/ HTTP/1.1" 200 7588
+[2026-02-08 10:45:07,401] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:07,402] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:09,069] INFO django.server log_message:249 - "GET /my-reservations/ HTTP/1.1" 200 7660
+[2026-02-08 10:45:09,110] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:09,111] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:11,539] INFO django.server log_message:249 - "GET /profile/ HTTP/1.1" 200 8182
+[2026-02-08 10:45:11,583] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:11,584] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:13,284] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:45:13,295] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-08 10:45:13,339] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:13,340] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:14,197] INFO django.server log_message:249 - "GET /profile/ HTTP/1.1" 200 8182
+[2026-02-08 10:45:14,240] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:14,241] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:15,129] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:45:15,138] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-08 10:45:15,177] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:15,178] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:19,729] INFO django.server log_message:249 - "GET /rooms/2/ HTTP/1.1" 200 13704
+[2026-02-08 10:45:19,779] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:19,780] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:22,967] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:22,968] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:33,312] INFO django.server log_message:249 - "GET /rooms/2/ HTTP/1.1" 200 13704
+[2026-02-08 10:45:33,356] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:33,357] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:35,358] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:35,360] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:36,481] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:36,482] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:37,662] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:37,663] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:37,900] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:37,901] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:38,127] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:38,128] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:38,322] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:38,323] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:38,528] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:38,528] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:38,982] INFO django.server log_message:249 - "GET /api/load_reservations/ HTTP/1.1" 200 738
+[2026-02-08 10:45:38,994] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:38,995] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:45:42,541] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 13703
+[2026-02-08 10:45:42,618] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 304 0
+[2026-02-08 10:45:42,748] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:45:42,748] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:46:19,264] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:46:31,308] INFO django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 200 18572
+[2026-02-08 10:46:31,321] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 200 3075
+[2026-02-08 10:46:33,210] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:46:33,211] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:46:43,919] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:46:43,931] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-08 10:46:43,985] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:46:43,987] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:46:45,125] INFO django.server log_message:249 - "GET /rooms/2/ HTTP/1.1" 200 21096
+[2026-02-08 10:46:45,175] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:46:45,176] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:46:47,258] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:46:47,259] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:46:48,300] INFO django.server log_message:249 - "GET /rooms/3/ HTTP/1.1" 200 17322
+[2026-02-08 10:46:48,348] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:46:48,349] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:46:50,711] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:46:50,712] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:46:52,122] INFO django.server log_message:249 - "GET /rooms/4/ HTTP/1.1" 200 19848
+[2026-02-08 10:46:52,165] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:46:52,166] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:47:39,253] ERROR django.request log_message:249 - Internal Server Error: /api/save_reservations/
+[2026-02-08 10:47:39,253] ERROR django.server log_message:249 - "POST /api/save_reservations/ HTTP/1.1" 500 66
+[2026-02-08 10:47:43,538] ERROR django.request log_message:249 - Internal Server Error: /api/save_reservations/
+[2026-02-08 10:47:43,539] ERROR django.server log_message:249 - "POST /api/save_reservations/ HTTP/1.1" 500 66
+[2026-02-08 10:48:52,281] INFO django.server log_message:249 - "GET /rooms/4/ HTTP/1.1" 200 19848
+[2026-02-08 10:48:52,296] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 200 3075
+[2026-02-08 10:48:53,157] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:48:53,158] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:49:13,984] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\api.py changed, reloading.
+[2026-02-08 10:49:14,570] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\api.py changed, reloading.
+[2026-02-08 10:49:14,580] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\api.py changed, reloading.
+[2026-02-08 10:49:14,919] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:49:15,535] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:49:15,560] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:49:56,687] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-08 10:49:56,783] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-08 10:49:57,090] INFO django.utils.autoreload trigger_reload:265 - D:\Project\BS\meeting-main\meeting-main\booking\views.py changed, reloading.
+[2026-02-08 10:50:00,224] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:50:00,224] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:51:22,267] INFO django.utils.autoreload run_with_reloader:681 - Watching for file changes with StatReloader
+[2026-02-08 10:51:55,454] ERROR django.request log_message:249 - Internal Server Error: /api/save_reservations/
+[2026-02-08 10:51:55,455] ERROR django.server log_message:249 - "POST /api/save_reservations/ HTTP/1.1" 500 57
+[2026-02-08 10:51:58,901] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:51:58,971] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-08 10:51:58,981] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 304 0
+[2026-02-08 10:51:59,061] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:51:59,062] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:52:00,866] ERROR django.request log_message:249 - Internal Server Error: /rooms/1/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'booking_extras'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 178, in room_detail
+    return render(request, "booking/room_detail.html", {
+        "room": room,
+    ...<6 lines>...
+        "seat_status": seat_status,
+    })
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Project\BS\meeting-main\meeting-main\booking\templates\booking\room_detail.html, 'booking_extras' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+[2026-02-08 10:52:00,875] ERROR django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 500 247311
+[2026-02-08 10:52:00,999] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:52:00,999] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:52:02,706] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:52:02,707] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:52:05,868] ERROR django.request log_message:249 - Internal Server Error: /rooms/2/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'booking_extras'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 178, in room_detail
+    return render(request, "booking/room_detail.html", {
+        "room": room,
+    ...<6 lines>...
+        "seat_status": seat_status,
+    })
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Project\BS\meeting-main\meeting-main\booking\templates\booking\room_detail.html, 'booking_extras' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+[2026-02-08 10:52:05,875] ERROR django.server log_message:249 - "GET /rooms/2/ HTTP/1.1" 500 247971
+[2026-02-08 10:52:05,937] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:52:05,938] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:52:07,167] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:52:07,168] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:52:12,780] INFO django.server log_message:249 - "GET /?ide_webview_request_time=1770519132468 HTTP/1.1" 302 0
+[2026-02-08 10:52:12,789] INFO django.server log_message:249 - "GET /dashboard/ HTTP/1.1" 302 0
+[2026-02-08 10:52:12,799] INFO django.server log_message:249 - "GET /student/dashboard/ HTTP/1.1" 200 10419
+[2026-02-08 10:52:12,881] INFO django.server log_message:249 - "GET /static/css/dashboard.css HTTP/1.1" 200 3075
+[2026-02-08 10:52:13,151] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:52:13,151] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
+[2026-02-08 10:52:14,500] ERROR django.request log_message:249 - Internal Server Error: /rooms/1/
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1067, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'booking_extras'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Project\BS\meeting-main\meeting-main\booking\views.py", line 178, in room_detail
+    return render(request, "booking/room_detail.html", {
+        "room": room,
+    ...<6 lines>...
+        "seat_status": seat_status,
+    })
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1129, in load
+    lib = find_library(parser, name)
+  File "D:\Project\BS\meeting-main\meeting-main\venv\Lib\site-packages\django\template\defaulttags.py", line 1069, in find_library
+    raise TemplateSyntaxError(
+    ...<5 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\Project\BS\meeting-main\meeting-main\booking\templates\booking\room_detail.html, 'booking_extras' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+auth
+cache
+i18n
+l10n
+log
+static
+tz
+[2026-02-08 10:52:14,506] ERROR django.server log_message:249 - "GET /rooms/1/ HTTP/1.1" 500 247310
+[2026-02-08 10:52:14,623] WARNING django.request log_message:249 - Not Found: /@vite/client
+[2026-02-08 10:52:14,624] WARNING django.server log_message:249 - "GET /@vite/client HTTP/1.1" 404 6132
