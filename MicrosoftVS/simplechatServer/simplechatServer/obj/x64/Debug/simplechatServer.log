@@ -1,0 +1,27 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.100.11”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(51,25): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(51,25): warning :          int sent = write(fd, data + totalSent, len - totalSent);
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(51,25): warning :                     ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(62,21): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(62,21): warning :          int n = read(fd, buf + totalRecv, len - totalRecv);
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(62,21): warning :                  ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(228,45): warning : conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(228,45): warning :                  unsigned int newLen = strlen(payload);
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(228,45): warning :                                        ~~~~~~^~~~~~~~~
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(280,53): warning : conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(280,53): warning :                          unsigned int newLen = strlen(payload);
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(280,53): warning :                                                ~~~~~~^~~~~~~~~
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(309,50): warning : conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(309,50): warning :                      unsigned int infoLen = strlen(payload);
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(309,50): warning :                                             ~~~~~~^~~~~~~~~
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(318,46): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(318,46): warning :                      while ((bytesRead = fread(fileBuf, 1, BUF_SIZE, f)) > 0) {
+D:\Project\Microsoft VS\simplechatServer\simplechatServer\main.cpp(318,46): warning :                                          ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  simplechatServer.vcxproj -> D:\Project\Microsoft VS\simplechatServer\simplechatServer\bin\x64\Debug\simplechatServer.out

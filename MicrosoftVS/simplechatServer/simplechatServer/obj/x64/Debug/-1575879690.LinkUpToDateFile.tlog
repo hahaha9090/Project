@@ -1,0 +1,1 @@
+cd /home/ydy/projects/simplechatServer/simplechatServer/; g++ -o "/home/ydy/projects/simplechatServer/simplechatServer/bin/x64/Debug/simplechatServer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ydy/projects/simplechatServer/simplechatServer/obj/x64/Debug/main.o
